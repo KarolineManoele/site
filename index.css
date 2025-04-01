@@ -8,8 +8,8 @@ img{
 }
 
 .box {
-    display: inline-block; /* Deixa os elementos lado a lado */
-    width: 190px; /* Define a largura */
+    display: inline-block;
+    width: 190px; 
     height: 300px;
     text-align: center;
     padding: 120px;
@@ -27,13 +27,13 @@ img{
   height: 100;
   width: 270px;
   background-color: orangered;
-  top: 100px; /* Move metade da imagem para cima */
-  left: 50%; /* Centraliza horizontalmente */
+  top: 100px; 
+  left: 50%; 
   margin-top: -90px;
 }
 .bloco2{
-    position: relative; /* Torna a div um contêiner de referência */
-    height: 250px; /* Altura da div */
+    position: relative; 
+    height: 250px; 
     width: 250px;
     padding: 10px;
     top: -150px;
@@ -52,11 +52,23 @@ header{
 }
 
 ul {
-    list-style-type: none; /* Remove as bolinhas */
-    padding: 0; /* Remove o espaçamento interno */
+    list-style-type: none; 
+    padding: 0; 
 }
 
 button{
     background-color: none;
     border: solid orangered;
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+   
+}
+.dark {
+    background-color: black;
+    color: white;
 }
